@@ -9,6 +9,10 @@
   "categories": [
     "Snippets"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KaziiTheAvali/kazii-s-portal-2-tas-code-snippets-extras"
+  },
   "contributes": {
     "snippets": [
       {

@@ -20,4 +20,5 @@ There is not too many known issues but if you find some please submit a report a
 ### 1.0.0
 
 Initial release: snippits included: autoaim, innitialization
+
 ---
