@@ -3,8 +3,12 @@
   "displayName": "Kazii's Portal 2 tas code snippets extras",
   "description": "A few extra code snippets for tassing portal 2. some that i find great use in",
   "version": "0.0.1",
+  "publisher": "KaziiTheAvali",
   "engines": {
     "vscode": "^1.85.0"
+  },
+  "author": {
+    "name": "kazii"
   },
   "categories": [
     "Snippets"
