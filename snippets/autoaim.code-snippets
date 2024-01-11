@@ -1,0 +1,125 @@
+{
+	//if you are having troubles finding the index take the thing after ent and input sar_ent_info object[number]
+	//func brush is like used for nearly anything that needs to move XD
+	//if you dont know what your looking at use sar_ent_info and it will show after -> name(ent)
+	"lookat func brush":{
+		"scope":"tas, p2tas",
+		"prefix":"lookatFuncBrush",
+		"body":[
+			"autoaim ent func_brush[${1:brush index}]"
+		],
+		"description":"you will aim at the func brush at the index inputed. [0] is the first func brush."
+	},
+	"lookat button":{
+		"scope":"tas, p2tas",
+		"prefix":"lookatButton",
+		"body":[
+			"autoaim ent func_button[${1:button index}]"
+		],
+		"description":"you will aim at the button at the index inputed. [0] is the first button."
+	},
+	"lookat physics object":{
+		"scope":"tas, p2tas",
+		"prefix":"lookatPhysicsObject",
+		"body":[
+			"autoaim ent prop_physics[${1:physics object index}]"
+		],
+		"description":"you will aim at the physics object at the index inputed. [0] is the first physics.NOTE: physics objects can sometimes appear as cubes but are not always cubes"
+	},
+	"lookat portalgun":{
+		"scope":"tas, p2tas",
+		"prefix":"lookatGun",
+		"body":[
+			"autoaim ent weapon_portalgun[${1:portal gun index}]"
+		],
+		"description":"this will aim at the portalgun. normally there is one but i put the index just in case. NOTE: portal guns can be picked up by going near"
+	},
+	"lookat prop dynamic":{
+		"scope":"tas, p2tas",
+		"prefix":"lookatPropDynamic",
+		"body":[
+			"autoaim ent prop_dynamic[${1:prop dynamic index}]"
+		],
+		"description":"this will aim at a prop dynamic at the index inputed. [0] is the first prop dynamic."
+	},
+	"lookat func movelinear":{
+		"scope":"tas, p2tas",
+		"prefix":"lookatMoveLinear",
+		"body":[
+			"autoaim ent func_movelinear[${1:movelinear index}]"
+		],
+		"description":"this will aim at a movelinear at the index inputed/ [0] is the first movelinear"
+	},
+	"lookat under floor button":{
+		"scope":"tas, p2tas",
+		"prefix":"lookatUnderFloorButton",
+		"body":[
+			"autoaim ent prop_under_floor_button[${1:floor button index}]"
+		],
+		"description":"this will aim at a underground floor button at the index inputed. [0] is the first underground floor button"
+	},
+	"lookat prop under button":{
+		"scope":"tas, p2tas",
+		"prefix":"lookatUnderButton",
+		"body":[
+			"autoaim ent prop_under_button[${1:button index}]"
+		],
+		"description":"this will look at a underground button at the index inputed. [0] is the first underground button"
+	},
+	"lookat weighted cube":{
+		"scope":"tas, p2tas",
+		"prefix":"lookatWeightedCube",
+		"body":[
+			"autoaim ent prop_weighted_cube[${1:cube index}]"
+		],
+		"description":"this will aim at a weighted cube at the index inputed. [0] is the first weighted cube"
+	},
+	"lookat test chamber door":{
+		"scope":"tas, p2tas",
+		"prefix":"lookatTCDoor",
+		"body":[
+			"autoaim ent prop_testchamber_door[${1:door index}]"
+		],
+		"description":"this will aim at a test chamber door at index inputed. [0] is the first door"
+	},
+	"lookat lazer catcher":{
+		"scope":"tas, p2tas",
+		"prefix":"lookatLazerCatcher",
+		"body":[
+			"autoaim ent prop_lazer_catcher[${1:catcher index}]"
+		],
+		"description":"This will aim at a lazer catcher at index inputed. [0] is the first lazer catcher"
+	},
+	"lookat lazer":{
+		"scope":"tas,p2tas",
+		"prefix":"lookatLazer",
+		"body":[
+			"autoaim ent env_portal_lazer[${1:lazer index}]"
+		],
+		"description":"will look at the starting location of a lazer at the index inputed aka lazer emitter. [0] is the first lazer "
+	},
+	"lookat breakable":{
+		"scopre":"tas,p2tas",
+		"prefix":"lookatBreakable",
+		"body":[
+			"autoaim ent func_breakable[${1:breakable thing index}]"
+		],
+		"description":"will aim at a breakable object or wall at the index inputed. [0] is the first breakable"
+	},
+	"lookat sec cam":{
+		"scope":"tas,p2tas",
+		"prefix":"lookatCam",
+		"body":[
+			"autoaim ent npc_security_cam[${1:security cam index}]"
+		],
+		"description":"will aim at a security cam at index inputed. [0] is the first security cam"
+	},
+	"lookat portal turret floor":{
+		"scope":"tas,p2tas",
+		"prefix":"lookatTurretFloor",
+		"body":[
+			"autoaim ent npc_portal_turret_floor[${1:turret index}]"
+		],
+		"description":"will look at a turret at index inputed. [0] is the first turret"
+	}
+}

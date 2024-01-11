@@ -1,0 +1,34 @@
+{
+	"tas start setup":{
+		"scope":"tas,p2tas",
+		"prefix":"ssetup",
+		"body":[
+			"version ${1:version number}",
+			"start map ${2:map name}",
+			"rngmanip ${3:rngmanip name}",
+			"0>|||sar_trace_record 1|",
+			"+200>|||sar_trace_record 0|"
+		],
+		"description":"creates the start of tasses. you can eather remove the rngmanip or use nomanip if you dont have a manip"
+	},
+	"tas frame setup":{
+		"scope":"tas,p2tas",
+		"prefix":"fsetup",
+		"body":[
+			"0>|||sar_trace_record 1|",
+			"+200>|||sar_trace_record 0|"
+		],
+		"description":"creatres the frame start of tases"
+	},
+	"tas start setup":{
+		"scope":"tas,p2tas",
+		"prefix":"ssetupnNoManip",
+		"body":[
+			"version ${1:version number}",
+			"start map ${2:map name}",
+			"0>|||sar_trace_record 1|",
+			"+200>|||sar_trace_record 0|"
+		],
+		"description":"creates the start of tasses."
+	},
+}
