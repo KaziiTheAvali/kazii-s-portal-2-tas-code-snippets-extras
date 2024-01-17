@@ -23,6 +23,6 @@ Initial release: snippits included: autoaim, innitialization
 
 ### 1.0.1 
 
-fixed version number and added floor button to autoaim
+fixed version number and added normal floor button to autoaim
 
 ---
