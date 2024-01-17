@@ -121,5 +121,13 @@
 			"autoaim ent npc_portal_turret_floor[${1:turret index}]"
 		],
 		"description":"will look at a turret at index inputed. [0] is the first turret"
+	},
+	"lookat floor button":{
+		"scope":"tas,p2tas",
+		"prefix":"lookatFloorButton",
+		"body":[
+			"autoaim ent prop_floor_button[${1:floor button index}]"
+		],
+		"description":"will aim at a floor button at index inputed. [0] is the first floor button"
 	}
 }
