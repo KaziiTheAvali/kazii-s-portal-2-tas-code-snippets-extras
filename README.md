@@ -21,4 +21,8 @@ There is not too many known issues but if you find some please submit a report a
 
 Initial release: snippits included: autoaim, innitialization
 
+### 1.0.1 
+
+fixed version number and added floor button to autoaim
+
 ---
